@@ -15,6 +15,14 @@
 		711EA5971EAE5EDB00F90B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 711EA5951EAE5EDB00F90B5A /* LaunchScreen.storyboard */; };
 		711EA5A21EAE5EDB00F90B5A /* DreamLister2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5A11EAE5EDB00F90B5A /* DreamLister2Tests.swift */; };
 		711EA5AD1EAE5EDB00F90B5A /* DreamLister2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5AC1EAE5EDB00F90B5A /* DreamLister2UITests.swift */; };
+		711EA5C21EAE640100F90B5A /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BA1EAE640100F90B5A /* Item+CoreDataClass.swift */; };
+		711EA5C31EAE640100F90B5A /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BB1EAE640100F90B5A /* Item+CoreDataProperties.swift */; };
+		711EA5C41EAE640100F90B5A /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BC1EAE640100F90B5A /* Image+CoreDataClass.swift */; };
+		711EA5C51EAE640100F90B5A /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BD1EAE640100F90B5A /* Image+CoreDataProperties.swift */; };
+		711EA5C61EAE640100F90B5A /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BE1EAE640100F90B5A /* Store+CoreDataClass.swift */; };
+		711EA5C71EAE640100F90B5A /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5BF1EAE640100F90B5A /* Store+CoreDataProperties.swift */; };
+		711EA5C81EAE640100F90B5A /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5C01EAE640100F90B5A /* ItemType+CoreDataClass.swift */; };
+		711EA5C91EAE640100F90B5A /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711EA5C11EAE640100F90B5A /* ItemType+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		711EA5A81EAE5EDB00F90B5A /* DreamLister2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamLister2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		711EA5AC1EAE5EDB00F90B5A /* DreamLister2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamLister2UITests.swift; sourceTree = "<group>"; };
 		711EA5AE1EAE5EDB00F90B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		711EA5BA1EAE640100F90B5A /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		711EA5BB1EAE640100F90B5A /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		711EA5BC1EAE640100F90B5A /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		711EA5BD1EAE640100F90B5A /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		711EA5BE1EAE640100F90B5A /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		711EA5BF1EAE640100F90B5A /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		711EA5C01EAE640100F90B5A /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		711EA5C11EAE640100F90B5A /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +115,14 @@
 		711EA5881EAE5EDB00F90B5A /* DreamLister2 */ = {
 			isa = PBXGroup;
 			children = (
+				711EA5BA1EAE640100F90B5A /* Item+CoreDataClass.swift */,
+				711EA5BB1EAE640100F90B5A /* Item+CoreDataProperties.swift */,
+				711EA5BC1EAE640100F90B5A /* Image+CoreDataClass.swift */,
+				711EA5BD1EAE640100F90B5A /* Image+CoreDataProperties.swift */,
+				711EA5BE1EAE640100F90B5A /* Store+CoreDataClass.swift */,
+				711EA5BF1EAE640100F90B5A /* Store+CoreDataProperties.swift */,
+				711EA5C01EAE640100F90B5A /* ItemType+CoreDataClass.swift */,
+				711EA5C11EAE640100F90B5A /* ItemType+CoreDataProperties.swift */,
 				711EA5891EAE5EDB00F90B5A /* AppDelegate.swift */,
 				711EA58B1EAE5EDB00F90B5A /* ViewController.swift */,
 				711EA58D1EAE5EDB00F90B5A /* Main.storyboard */,
@@ -264,7 +288,15 @@
 			files = (
 				711EA58C1EAE5EDB00F90B5A /* ViewController.swift in Sources */,
 				711EA5921EAE5EDB00F90B5A /* DreamLister2.xcdatamodeld in Sources */,
+				711EA5C81EAE640100F90B5A /* ItemType+CoreDataClass.swift in Sources */,
+				711EA5C21EAE640100F90B5A /* Item+CoreDataClass.swift in Sources */,
+				711EA5C41EAE640100F90B5A /* Image+CoreDataClass.swift in Sources */,
+				711EA5C71EAE640100F90B5A /* Store+CoreDataProperties.swift in Sources */,
 				711EA58A1EAE5EDB00F90B5A /* AppDelegate.swift in Sources */,
+				711EA5C91EAE640100F90B5A /* ItemType+CoreDataProperties.swift in Sources */,
+				711EA5C61EAE640100F90B5A /* Store+CoreDataClass.swift in Sources */,
+				711EA5C31EAE640100F90B5A /* Item+CoreDataProperties.swift in Sources */,
+				711EA5C51EAE640100F90B5A /* Image+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
